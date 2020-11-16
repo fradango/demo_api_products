@@ -1,14 +1,14 @@
 {
   "name": "API_Buenas_Practicas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo API con Node js aplicando buenas prácticas de diseño",
   "main": "index.js",
   "scripts": {
-    "prod": "node src/server.js",
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Franco Paredes",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

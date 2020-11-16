@@ -21,7 +21,6 @@ exports.getProducts = async (req, res, next) => {
     query = Product.find(reqQuery);
 
     const totalResults = (await query).length;
-    console.log(totalResults);
 
     //Select
     if (req.query.select) {
